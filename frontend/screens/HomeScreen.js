@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
-import { View, Text } from 'react-native';
+import React from 'react';
+
+import Layout from '../components/Layout';
+import TaskList from '../components/TaskList';
 
 const HomeScreen = () => {
-  useEffect(() => {}, []);
-
   return (
-    <View>
-      <Text>Home Screen</Text>
-    </View>
+    <Layout>
+      <TaskList />
+    </Layout>
   );
 };
 
