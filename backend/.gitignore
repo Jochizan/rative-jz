@@ -1,0 +1,5 @@
+# packages npm
+node_modules
+
+# compile babel and others
+dist
